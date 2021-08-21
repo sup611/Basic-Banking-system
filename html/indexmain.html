@@ -1,0 +1,62 @@
+<!Doctype html>
+
+<html lang="en">
+    <head>
+       
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title>Basic Banking Website</title>
+        <!----stylesheet----->
+        <link rel="stylesheet" type="text/css" href="stylemain.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+       <!----Bootstrp ol href create menu and close--->
+    </head>
+    <body>
+        <!---home section-->
+<section class="header">
+   
+    <header>
+        <h1>The Spark Foundation Bank</h1>
+    </header>
+    <nav>
+        <!--# Empty URL-->
+        <a href="indexmain.html">Home</a>
+        <a href="ViewAllCustomer.html">View All Customer</a>
+        <a href="TransferMoney.html">Transfer Money</a>
+        <a href="AboutUs.html">About Us</a>
+        
+    </nav>
+    
+<br>
+<div>
+    <img src="Images/Lloyds-Banking-Open-HSBC.jpg" alt="The Spark Foundation Bank" style="width: 600px; margin-left: 33%">
+</div>
+
+        <!--Footer Section-->
+        
+<section class="footer">
+   <div class="footer-div">
+     <div class="icon">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+     </div>
+        <h3>©Supriya Mane</h3>
+   </div>
+</section>
+          <!-----Javascript for toggle menu--------->  
+        <script>
+            var navLinks= document.getElementById("navLinks");
+            
+            function showMenu(){
+                navLinks.style.right="0";
+            }
+            function hideMenu(){
+                navLinks.style.right="-300px";
+            }
+            
+        </script>
+        
+    </body>
+</html>
